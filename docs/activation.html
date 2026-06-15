@@ -24,71 +24,192 @@
     </header>
 
     <main class="doc-main">
-      <article>
-        <h2>适用场景</h2>
-        <p>你已经拿到 giffgaff 实体 SIM，想把它绑定到自己的 giffgaff 账号，并让号码可以收短信、打电话或使用数据。</p>
-        <img src="../assets/images/activation-start.png" alt="giffgaff 激活页面截图" />
+      <article class="activation-guide">
+        <section class="doc-intro">
+          <div>
+            <h2>开始前先准备好</h2>
+            <p>你已经拿到 giffgaff 实体 SIM，想把它绑定到自己的 giffgaff 账号，并让号码可以收短信、打电话或使用数据。激活时建议先不要插卡，手机和电脑保持 Wi-Fi 在线。</p>
+          </div>
+          <ul class="prep-list">
+            <li>SIM 卡或 SIM 卡包装上的 activation code。</li>
+            <li>一个可收验证码邮件的邮箱。</li>
+            <li>可用的银行卡、PayPal、voucher 或页面显示的其他支付方式。</li>
+            <li>如果页面要求地址，请使用真实可用的联系地址、住宿地址或收件地址。</li>
+          </ul>
+        </section>
 
-        <h2>准备材料</h2>
-        <ul>
-          <li>giffgaff SIM 卡或 SIM 卡包装。</li>
-          <li>SIM 包装上的 activation code。常见位置见下图：有的卡套正面是 6 位激活码，有的卡套背面可用 13 位 SIM serial number。</li>
-          <li>一个可收邮件的邮箱。</li>
-          <li>可用的支付方式。境外用户常见选择是银行卡或 PayPal，是否可用以结算页面为准。</li>
-          <li>手机最好先连 Wi-Fi，等激活完成后再插卡或重启。</li>
-        </ul>
-        <img src="../assets/images/activation-official-three-steps.png" alt="giffgaff 官方激活码位置示意图" />
+        <section class="notice-band">
+          <strong>页面可能会更新</strong>
+          <p>下面截图展示的是典型激活路径。giffgaff 会调整页面文案和套餐入口，操作时以你实际看到的按钮和金额为准。</p>
+        </section>
 
-        <h2>激活步骤</h2>
-        <p>页面文案可能会调整，但完整激活通常会经过下面这些步骤。</p>
-        <ol>
-          <li>打开官方激活入口：<a href="https://www.giffgaff.com/activate">giffgaff.com/activate</a>。</li>
-          <li>在输入框里填入 activation code。优先使用卡套上明确写着 <code>Activation Code</code> 的 6 位代码；如果页面提示可用 13 位代码，再输入 SIM 卡背面或卡套上的 13 位 SIM serial number。</li>
-          <li>点击激活按钮。如果提示代码无效，先检查是否把字母 <code>O</code> 和数字 <code>0</code>、字母 <code>I</code> 和数字 <code>1</code> 混淆；仍失败时换浏览器或无痕窗口再试。</li>
-          <li>创建 giffgaff 账号，或登录已有账号。新账号需要填写邮箱、密码，并按页面要求完成基础资料。</li>
-          <li>打开邮箱，完成 giffgaff 发送的验证或确认步骤。如果没有收到邮件，先查垃圾邮件，再确认邮箱拼写。</li>
-          <li>填写个人资料和联系信息。页面可能会要求姓名、出生年份、地址或营销偏好；营销邮件和短信可以按需拒绝。</li>
-          <li>选择首次使用方式。常见选项是购买 monthly plan、购买 goodybag，或先充值余额按量使用。人在英国境外、只想保号或收验证码时，优先看清是否会自动续费、是否包含漫游使用限制。</li>
-          <li>选择支付方式并付款。银行卡、PayPal、voucher 等选项是否可用，以结算页实际显示为准。提交前确认金额、续费开关和条款勾选状态。</li>
-          <li>等页面显示激活已提交或完成。不要反复刷新支付页；如果支付已扣款但页面卡住，先登录 giffgaff 后台查看订单和 SIM 状态。</li>
-          <li>把 SIM 插入手机并重启。双卡手机要确认 giffgaff SIM 已启用，并把语音、短信或数据线路切到正确号码。</li>
-          <li>等待手机注册网络。通常几分钟内会有信号，但个别情况可能需要更久；官方提示最长可能需要 24 小时。期间保持手机开机，必要时手动搜索网络。</li>
-          <li>登录 giffgaff 后台确认号码、余额和 plan 状态。能看到手机号、余额或 plan 后，再测试收短信、拨打电话和上网。</li>
-        </ol>
-        <img src="../assets/images/activation-email.jpeg" alt="激活邮件示例" />
+        <section class="activation-steps" aria-label="giffgaff 激活步骤">
+          <section class="step-card" id="step-1">
+            <div class="step-copy">
+              <span class="step-number">01</span>
+              <h2>输入激活码</h2>
+              <p>打开 <a href="https://www.giffgaff.com/activate">giffgaff.com/activate</a>。在输入框里填入卡套上的 6 位 activation code，然后点击 <strong>Activate your SIM</strong>。</p>
+              <p>如果页面提示可用 13 位代码，再使用 SIM 卡背面或卡套上的 SIM serial number。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-01.png" alt="giffgaff 激活码输入页面和激活码位置截图" />
+              <figcaption>输入 6 位激活码并点击激活按钮</figcaption>
+            </figure>
+          </section>
 
-        <h2>页面选择建议</h2>
-        <ul>
-          <li>只想先让卡生效：选择最小成本的充值或按页面允许的最低方案，不要开启不需要的自动续费。</li>
-          <li>需要马上在英国使用流量：选择合适的数据 plan，并确认手机 APN 自动下发成功。</li>
-          <li>在中国大陆或其他英国境外地区使用：先关闭数据漫游，只保留蜂窝网络注册和短信；需要上网前先查漫游价格。</li>
-          <li>已有 giffgaff 账号：登录后确认不要把新 SIM 误绑定到不想使用的旧号码或旧套餐。</li>
-        </ul>
+          <section class="step-card" id="step-2">
+            <div class="step-copy">
+              <span class="step-number">02</span>
+              <h2>填写邮箱</h2>
+              <p>输入你要绑定到 giffgaff 账号的邮箱，点击 <strong>Next</strong>。这个邮箱后续会用于登录、找回密码和接收激活通知。</p>
+              <p>建议使用长期可访问的邮箱，不要使用临时邮箱。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-02.png" alt="giffgaff 输入邮箱页面截图" />
+              <figcaption>输入邮箱并进入下一步</figcaption>
+            </figure>
+          </section>
 
-        <h2>常见卡点</h2>
-        <ul>
-          <li>找不到激活码：检查 SIM 卡套正反面，查找 <code>Activation Code</code>、条形码附近的 13 位数字，或回到官方激活页看示意图。</li>
-          <li>激活码无效：确认 SIM 没被别人激活过；换浏览器、清缓存、关闭翻译插件后再试。</li>
-          <li>收不到确认邮件：检查垃圾邮件、广告邮件夹；邮箱填错时通常需要重新开始或联系官方支持。</li>
-          <li>付款失败：换支付方式，或确认银行卡允许境外/线上支付。不要连续重复提交多次。</li>
-          <li>激活后没信号：重启手机、手动选网、换卡槽；仍无信号时等待一段时间再查后台状态。</li>
-        </ul>
+          <section class="step-card" id="step-3">
+            <div class="step-copy">
+              <span class="step-number">03</span>
+              <h2>确认邮箱验证码</h2>
+              <p>打开邮箱，找到 giffgaff 发来的验证码邮件，把验证码填回页面并点击 <strong>Confirm</strong>。</p>
+              <p>如果没收到邮件，先检查垃圾邮件、广告邮件夹，再确认邮箱拼写是否正确。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-03.png" alt="giffgaff 邮箱验证码确认页面截图" />
+              <figcaption>输入邮箱验证码完成确认</figcaption>
+            </figure>
+          </section>
 
-        <h2>APN 检查</h2>
-        <p>如果 SIM 已有信号但无法上网，手动检查 APN：</p>
-        <ul>
-          <li>APN：<code>giffgaff.com</code></li>
-          <li>用户名：<code>gg</code></li>
-          <li>密码：<code>p</code></li>
-        </ul>
-        <p>iPhone 通常会自动下发配置。Android 机型如果没有自动配置，可以在“移动网络”或“接入点名称”里新增 APN。</p>
+          <section class="step-card" id="step-4">
+            <div class="step-copy">
+              <span class="step-number">04</span>
+              <h2>创建账号密码</h2>
+              <p>设置 giffgaff 账号密码，按页面要求达到长度和复杂度后点击 <strong>Register</strong>。</p>
+              <p>这个账号会管理余额、套餐、SIM 状态和后续补卡、换卡等操作，请保存好登录信息。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-04.png" alt="giffgaff 创建密码注册页面截图" />
+              <figcaption>创建密码并注册账号</figcaption>
+            </figure>
+          </section>
 
-        <h2>激活后建议</h2>
-        <ul>
-          <li>先确认能收到短信。</li>
-          <li>登录 giffgaff 后台检查号码、余额和 plan 状态。</li>
-          <li>如果人在英国境外，先不要大量开数据漫游，漫游资费请先到官方页面查询。</li>
-        </ul>
+          <section class="step-card" id="step-5">
+            <div class="step-copy">
+              <span class="step-number">05</span>
+              <h2>跳过不需要的额外选择</h2>
+              <p>如果页面询问是否需要额外推荐或增值选项，按自己的使用场景选择。只想先激活 SIM 的用户，通常可以选择 <strong>No, thanks</strong> 后继续。</p>
+              <p>提交前看清页面是否会开启自动续费或绑定额外服务。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-05.png" alt="giffgaff 额外选项选择页面截图" />
+              <figcaption>按需跳过额外推荐</figcaption>
+            </figure>
+          </section>
+
+          <section class="step-card" id="step-6">
+            <div class="step-copy">
+              <span class="step-number">06</span>
+              <h2>选择 Pay as you go</h2>
+              <p>如果你主要用于收短信、保号或低频使用，可以下拉找到 <strong>Pay as you go</strong>。如果需要长期流量，也可以按页面选择合适 plan。</p>
+              <p>人在英国境外时，先看清漫游限制和续费开关，再继续。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-06.png" alt="giffgaff Pay as you go 选择页面截图" />
+              <figcaption>选择 Pay as you go 或合适的首次使用方式</figcaption>
+            </figure>
+          </section>
+
+          <section class="step-card" id="step-7">
+            <div class="step-copy">
+              <span class="step-number">07</span>
+              <h2>选择充值金额或 voucher</h2>
+              <p>页面会让你选择首次充值金额或兑换充值券。使用银行卡或 PayPal 时按页面显示的金额继续；已有 voucher 时选择兑换入口并输入券码。</p>
+              <p>金额和可用支付方式会变化，以结算页面实际显示为准。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-07.png" alt="giffgaff 充值金额和 voucher 入口页面截图" />
+              <figcaption>选择充值金额或兑换充值券</figcaption>
+            </figure>
+          </section>
+
+          <section class="step-card" id="step-8">
+            <div class="step-copy">
+              <span class="step-number">08</span>
+              <h2>填写个人资料和地址</h2>
+              <p>按页面要求填写姓名、地址和联系信息。地址用于账单、账号资料或合规校验，请使用真实可用的信息。</p>
+              <p>营销邮件、短信和偏好设置可以按自己的需要选择。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-08.png" alt="giffgaff 个人资料和地址填写页面截图" />
+              <figcaption>填写账号资料和地址信息</figcaption>
+            </figure>
+          </section>
+
+          <section class="step-card" id="step-9">
+            <div class="step-copy">
+              <span class="step-number">09</span>
+              <h2>确认支付</h2>
+              <p>输入支付信息，检查金额、条款勾选和续费开关，然后点击 <strong>Place order</strong>。不要在支付处理中反复刷新页面。</p>
+              <p>如果扣款后页面卡住，先登录 giffgaff 后台查看订单和 SIM 状态，再决定是否重试。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-09.png" alt="giffgaff 支付确认页面截图" />
+              <figcaption>确认付款和条款后提交订单</figcaption>
+            </figure>
+          </section>
+
+          <section class="step-card" id="step-10">
+            <div class="step-copy">
+              <span class="step-number">10</span>
+              <h2>记录分配到的号码</h2>
+              <p>激活成功后页面会显示你的 giffgaff 手机号，英国号码通常以 +44 开头。先把号码记录下来，后续登录、验证和收短信会用到。</p>
+              <p>如果页面还在处理中，等待一段时间后再刷新后台状态。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-10.png" alt="giffgaff 激活成功显示手机号页面截图" />
+              <figcaption>页面显示新分配的 giffgaff 号码</figcaption>
+            </figure>
+          </section>
+
+          <section class="step-card" id="step-11">
+            <div class="step-copy">
+              <span class="step-number">11</span>
+              <h2>回到主页确认余额</h2>
+              <p>回到 giffgaff 主页或后台，确认能看到余额、plan 或 SIM 状态。然后插卡重启手机，等待注册网络。</p>
+              <p>通常几分钟到几小时内会生效，个别情况最长可能需要 24 小时。能看到号码和余额后，再测试收短信、拨打电话和上网。</p>
+            </div>
+            <figure class="step-shot">
+              <img src="../assets/images/activation-step-11.png" alt="giffgaff 主页余额显示页面截图" />
+              <figcaption>余额显示后再插卡等待信号</figcaption>
+            </figure>
+          </section>
+        </section>
+
+        <section class="support-grid" aria-label="激活后检查">
+          <div>
+            <h2>常见卡点</h2>
+            <ul>
+              <li>找不到激活码：检查 SIM 卡套正反面，查找 <code>Activation Code</code>、条形码附近的 13 位数字，或回到官方激活页看示意图。</li>
+              <li>激活码无效：确认 SIM 没被别人激活过；换浏览器、清缓存、关闭翻译插件后再试。</li>
+              <li>收不到确认邮件：检查垃圾邮件、广告邮件夹；邮箱填错时通常需要重新开始或联系官方支持。</li>
+              <li>付款失败：换支付方式，或确认银行卡允许境外/线上支付。不要连续重复提交多次。</li>
+              <li>激活后没信号：重启手机、手动选网、换卡槽；仍无信号时等待一段时间再查后台状态。</li>
+            </ul>
+          </div>
+          <div>
+            <h2>APN 检查</h2>
+            <p>如果 SIM 已有信号但无法上网，手动检查 APN：</p>
+            <ul>
+              <li>APN：<code>giffgaff.com</code></li>
+              <li>用户名：<code>gg</code></li>
+              <li>密码：<code>p</code></li>
+            </ul>
+            <p>iPhone 通常会自动下发配置。Android 机型如果没有自动配置，可以在“移动网络”或“接入点名称”里新增 APN。</p>
+          </div>
+        </section>
 
         <div class="next-links">
           <a class="button primary" href="./keep-number.html">下一步：保号</a>
@@ -96,9 +217,5 @@
         </div>
       </article>
     </main>
-
-    <footer>
-      <p>本教程为社区整理。费用、条款和可用性以 giffgaff 官方页面为准。</p>
-    </footer>
   </body>
 </html>

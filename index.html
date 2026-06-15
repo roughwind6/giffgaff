@@ -10,20 +10,46 @@
   <body>
     <header class="site-header">
       <nav class="nav" aria-label="章节导航">
-        <a href="#activate">激活</a>
-        <a href="#keep">保号</a>
-        <a href="#roaming">漫游</a>
-        <a href="#wifi">Wi-Fi Calling</a>
-        <a href="#troubleshoot">排错</a>
+        <a class="brand" href="./index.html" aria-label="giffgaff 中文使用教程首页">
+          <img src="./assets/site-icon.svg" alt="" />
+          <span>giffgaff Guide</span>
+        </a>
+        <div class="nav-links">
+          <a href="#activate">激活</a>
+          <a href="#keep">保号</a>
+          <a href="#roaming">漫游</a>
+          <a href="#wifi">Wi-Fi Calling</a>
+          <a href="#troubleshoot">排错</a>
+        </div>
       </nav>
       <div class="hero">
-        <p class="eyebrow">中文图文教程</p>
-        <h1>giffgaff 从激活到保号</h1>
-        <p class="lead">面向在英国境外使用 giffgaff 的中文用户，整理激活、收验证码、漫游、Wi-Fi Calling 和常见故障处理。</p>
-        <div class="actions">
-          <a class="button primary" href="https://www.giffgaff.com/activate">官方激活入口</a>
-          <a class="button" href="./docs/references.html">参考来源</a>
+        <div class="hero-copy">
+          <p class="eyebrow">中文图文教程</p>
+          <h1>giffgaff 从激活到保号</h1>
+          <p class="lead">按真实网页流程拆解 SIM 激活、充值、收验证码、漫游和 Wi-Fi Calling。先看步骤，再动手操作。</p>
+          <div class="actions">
+            <a class="button primary" href="./docs/activation.html">查看激活图文步骤</a>
+            <a class="button ghost" href="https://www.giffgaff.com/activate">官方激活入口</a>
+          </div>
+          <dl class="quick-facts" aria-label="教程要点">
+            <div>
+              <dt>11</dt>
+              <dd>激活截图</dd>
+            </div>
+            <div>
+              <dt>24h</dt>
+              <dd>最长等待参考</dd>
+            </div>
+            <div>
+              <dt>0</dt>
+              <dd>长期月租</dd>
+            </div>
+          </dl>
         </div>
+        <figure class="hero-visual">
+          <img src="./assets/images/activation-step-01.png" alt="giffgaff 激活码输入页面截图" />
+          <figcaption>激活入口与激活码位置</figcaption>
+        </figure>
       </div>
     </header>
 
@@ -32,20 +58,19 @@
         <div class="section-copy">
           <p class="kicker">Step 1</p>
           <h2>激活 SIM</h2>
-          <p>先在 SIM 卡套上找到 activation code，再到官方激活页绑定账号、选择首次充值或 plan，并等待号码生效。</p>
+          <p>先在 SIM 卡套上找到 activation code，再到官方激活页绑定账号、验证邮箱、选择充值方式并等待号码生效。</p>
           <ol>
             <li>打开 <a href="https://www.giffgaff.com/activate">giffgaff.com/activate</a>。</li>
             <li>输入 6 位 activation code；页面允许时也可用 13 位 SIM serial number。</li>
             <li>创建或登录 giffgaff 账号，并完成邮箱确认。</li>
-            <li>填写个人资料、地址和营销偏好。</li>
-            <li>选择 plan、goodybag 或充值余额，确认是否自动续费。</li>
+            <li>选择 Pay as you go、plan 或充值，确认是否自动续费。</li>
             <li>付款后插卡重启，登录后台确认号码、余额和 plan 状态。</li>
           </ol>
           <p><a href="./docs/activation.html">查看完整激活步骤</a></p>
         </div>
         <figure>
-          <img src="./assets/images/activation-official-three-steps.png" alt="giffgaff 激活码位置示意图" />
-          <figcaption>激活码位置示意</figcaption>
+          <img src="./assets/images/activation-step-06.png" alt="giffgaff Pay as you go 选择页面截图" />
+          <figcaption>激活过程中选择 Pay as you go</figcaption>
         </figure>
       </section>
 
@@ -111,9 +136,5 @@
         </div>
       </section>
     </main>
-
-    <footer>
-      <p>本教程为社区整理。费用、条款和可用性以 giffgaff 官方页面为准。</p>
-    </footer>
   </body>
 </html>

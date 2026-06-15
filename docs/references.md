@@ -18,8 +18,7 @@
 | `assets/images/activation-start.png` | 激活入口示例 | 参考截图 |
 | `assets/images/activation-official-three-steps.png` | 激活码位置示意 | giffgaff 官方激活页 |
 | `assets/images/activation-email.jpeg` | 激活邮件示例 | 参考截图 |
+| `assets/images/activation-step-01.png` 至 `activation-step-11.png` | 激活流程逐步截图 | 参考截图 |
 | `assets/images/wifi-calling-intro.jpeg` | Wi-Fi Calling 说明示例 | 参考截图 |
 | `assets/images/ios-wifi-calling-settings.png` | iPhone Wi-Fi Calling 设置示例 | 参考截图 |
 | `assets/images/voice-mail-and-balance.jpeg` | 余额和语音信箱示例 | 参考截图 |
-
-如果公开发布本仓库，请确认这些截图的授权状态；无法确认时建议改为只保留链接或替换为自己拍摄的截图。
