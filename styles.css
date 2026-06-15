@@ -198,6 +198,99 @@ figcaption {
   padding-left: 20px;
 }
 
+.doc-header {
+  background: #f2f6eb;
+  border-bottom: 1px solid var(--line);
+}
+
+.doc-nav {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.doc-nav a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.doc-title {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 44px 24px 52px;
+}
+
+.doc-title h1 {
+  max-width: 760px;
+  font-size: clamp(36px, 6vw, 64px);
+}
+
+.doc-main {
+  max-width: 920px;
+}
+
+.doc-main article {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  padding: 34px;
+}
+
+.doc-main h2 {
+  margin-top: 34px;
+  font-size: clamp(24px, 4vw, 36px);
+}
+
+.doc-main h2:first-child {
+  margin-top: 0;
+}
+
+.doc-main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 18px 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.doc-main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 18px 0;
+  font-size: 15px;
+}
+
+.doc-main th,
+.doc-main td {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.doc-main th {
+  background: #f2f6eb;
+}
+
+.doc-main code {
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #eef2f0;
+}
+
+.next-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
 footer {
   padding: 28px 24px 40px;
   color: var(--muted);
@@ -225,5 +318,8 @@ footer {
   figure.phone {
     max-width: 100%;
   }
-}
 
+  .doc-main article {
+    padding: 24px 18px;
+  }
+}
