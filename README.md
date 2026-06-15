@@ -12,6 +12,7 @@
 
 ## 快速阅读
 
+- 在线阅读：<https://roughwind6.github.io/giffgaff/>
 - 直接打开 [index.html](./index.html) 查看图文版页面。
 - 查看 Markdown 章节：
   - [激活 SIM](./docs/activation.md)
@@ -40,4 +41,3 @@
 ## 本仓库内容来源
 
 本仓库参考了用户提供的两篇文章，并用 giffgaff 官方页面校准关键规则。截图来自参考文章，仅用于本教程的阅读辅助，具体来源见 [docs/references.md](./docs/references.md)。
-
