@@ -15,9 +15,9 @@
 
 ### 01. 输入激活码
 
-打开 <https://www.giffgaff.com/activate>。在输入框里填入卡套上的 6 位 activation code，然后点击 **Activate your SIM**。
+打开 <https://www.giffgaff.com/activate>。在输入框里填入卡套上的 13 位SIM serial number，然后点击 **Activate your SIM**。
 
-如果页面提示可用 13 位代码，再使用 SIM 卡背面或卡套上的 SIM serial number。
+如果卡套上有6位 Activate Code也可使用。
 
 ![giffgaff 激活码输入页面和激活码位置截图](../assets/images/activation-step-01.png)
 
